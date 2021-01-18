@@ -23,7 +23,7 @@ public class BusinessCardManagerDao {
 		try{
 			String dbURL = "jdbc:mysql://localhost:3306/CLI?serverTimezone=UTC";
 			String dbID = "root";
-			String dbPassword = "hoy2158831a@";
+			String dbPassword = "비밀번호";
 			conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
 		} catch (SQLException e) {
 			e.printStackTrace();
